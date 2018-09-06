@@ -7,6 +7,63 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
+        <h1>Elementos básicos de HTML</h1>
+        <p>En esta página se muestran ejemplos de principales elementos para estructurar el ontenido de una 
+            página web</p>
+        <h2>Encabezados</h2>
+        <p>Existen 6 niveles y se debe reespetar el orden en el que se representan</p>
+        <h2>Listas</h2>
+        <h3>Listas desordenadas (ul)</h3>
+        <ul>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>C#</li>
+        </ul>
+
+        <h3>Listas ordenadas (lo)</h3>
+        <ol>
+            <li>Windows</li>
+            <li>MacOS</li>
+            <li>Linux</li>
+        </ol>
+        </ul>
         
+        <h2>Tablas (table, tr, th, td)</h2>
+        <table>
+            <tr>
+                <th>Grupo</th>
+                <th>Nombre</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1K</td>
+                <td>Juan</td>
+                <td>juan@gmail.com</td>
+            </tr>
+            <tr>
+                <td>1J</td>
+                <td>Jaqueline</td>
+                <td>jaqueline@gmail.com</td>
+            </tr>
+        </table>
+        
+        <h2>Formularios</h2>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre"/>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email"/>
+            </div>
+            <div>
+                <label>Cometarios:</label>
+                <textarea id="comentarios"></textarea>
+            </div>
+            <div>
+                <button id="enviar">Enviar</button>
+            </div>
+        </form>
     </body>
 </html>
