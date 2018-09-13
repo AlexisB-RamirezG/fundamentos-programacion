@@ -1,0 +1,28 @@
+
+p,li,h1 { /*Selector elemento*/
+    color:purple;
+    width: 400px;
+    border: 1px solid black;
+}
+
+#niveles { /*Selector de idenfiticador*/
+    background-color:burlywood;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.sin-borde {/*Selector de clase*/ 
+    color:brown;
+    background:salmon;
+    border:0px;
+}
+
+#niveles:hover {/*Selector de subclase*/
+    background-color:goldenrod;
+    color:black;
+}
+
+label[for] {
+    color:royalblue;
+}
+
+
